@@ -8,7 +8,19 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: 0;
+  padding: 0;
+   
+ 
 	
+}
+#wrapper{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+}
+#particles-js{
+	height: 100vh;
 }
 h1{
 	font-size: 3rem;
@@ -23,11 +35,15 @@ img{
 	margin: 10px 0;			
 }
 p{
+	margin-top: 15px;
+	letter-spacing: 2px;
 	color: #FFFFFF
 }
 section{
 	margin-top: 15px;
+
 }
+
 .foot-d{
 	font-family: 'Pacifico', cursive;
 	border: 3px solid rgba(156, 156, 156, .2);
@@ -65,7 +81,7 @@ hr{
 	height: 9rem;
 }
 .text{
-	font-size: 3rem;
+	font-size: 2rem;
 }
 .text-color{
 	color: black;
@@ -79,3 +95,4 @@ hr{
 	color: white;
 	opacity: 0.8;
 }
+
